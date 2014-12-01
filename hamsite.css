@@ -1,30 +1,31 @@
 body{
+margin:0px;
 }
 
-nav{
+#menu{
 width:250px;
 position:absolute;
 left:-250px;
+z-index:3;
 }
 
-.menubutton{
+.menu_open{
+}
+
+#menubutton{
 background-color: #406422;
+position: relative;
+height:30px;
+width:30px;
+left: 250px;
+
 margin:10px 10px;
 border-radius:50%;
 box-shadow:3px 3px 5px;
 
-height:30px;
-width:30px;
-
-position:relative;
-left:250px;
-
-opacity:0.85;
+/*opacity:0.85;
 filter: alpha(opacity=90); /*IE8 compat*/
 z-index:2;
-}
-
-#menu-toggle1{
 }
 
 .page-container{
@@ -33,6 +34,7 @@ top:0px;
 left:0px;
 background-color: #CCDDCC;
 width:100%
+overflow:hidden;
 }
 
 
@@ -47,6 +49,8 @@ width:100%;
 height:auto;
 opacity: 0.6;
 filter: alpha(opacity=60); /* For IE8 and earlier */
+z-index: 0;
+
 }
 
 div.menubar menuitem{
