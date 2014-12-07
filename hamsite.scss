@@ -1,0 +1,56 @@
+body{
+margin:0px;
+/*gotta make a mobile version sometime.*/
+}
+$headheight:200px;
+$menuwidth:150px;
+header{
+height:$headheight;
+overflow:hidden;
+margin:auto;
+
+    header img{
+    width:100%;
+    height:auto;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    z-index: 0;
+    }
+
+    #menu{
+    height:$headheight;
+    width:$menuwidth;
+    position:absolute;
+    left:(-1 * $menuwidth);
+    z-index:3;
+    background-color:406422;
+    background-color: hsla(120,80%,60%,0.85);
+        #menubutton{
+        background-color: #406422;
+        background-color: hsla(120,80%,60%,0.85);
+        position: absolute;
+        height:30px;
+        width:30px;
+        left: 150px;
+
+        margin:10px 10px;
+        border-radius:50%;
+        box-shadow:3px 3px 5px;
+        /*opacity:0.85;
+        filter: alpha(opacity=85); IE8 compat*/
+        }
+        menuitem{
+        display:block;
+        margin: 0 auto; //why won't this work?
+        }
+    }
+}
+
+.page-container{
+position:absolute;
+top:0px;
+left:0px;
+background-color: #CCDDCC;
+width:100%;
+overflow:hidden;
+}

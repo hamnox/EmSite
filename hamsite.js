@@ -1,7 +1,7 @@
 main = function() {
     $("#menubutton").click(function(){
         if($("#menu").hasClass("menu_open")) {
-            $("#menu").animate({left: "-250px"},100);
+            $("#menu").animate({left: "-150px"},100);
             $("#menu").removeClass("menu_open");
         } else {
             $("#menu").animate({left: "0px"},100);
