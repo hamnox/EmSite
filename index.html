@@ -1,51 +1,75 @@
-<!DOCTYPE HTML>
-
-<html>
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" href="hamsite.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script src="hamsite.js"></script>
-    <title>Your Website</title>
+    <meta charset="utf-8" />
+    <title>Em's World</title>
+    <link rel="stylesheet" href="styles/base_starter.css" />
+    <style>
+        div {
+            padding: 1em;
+        }
+
+        .newline {
+            display: block;
+        }
+
+        div.flex-container {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
 </head>
 
 <body>
-
-    
-    <header>
-        <nav id="menu">
-            <div id="menubutton"></div>
-            <div id="menulist">
-                <menuitem id="projects">Projects</menuitem>
-                <menuitem id="essays">Essays</menuitem>
-                <menuitem id="art">Artsiness</menuitem>
-                <menuitem id="musings">Musings</menuitem>
-                <menuitem id="bio">About Me</menuitem>
-                <menuitem id="menulinks">Links</menuitem>
+    <div style="padding: 2em;">
+        <h1>Em's World</h1>
+        <div class="flex-container">
+            <div class="flex-box">
+                <div style="text-align: center">
+                    <img src="styles/avatar.png" />
+                </div>
+                <section>
+                    <h2>About Me</h2>
+                    <div><a href="https://www.facebook.com/hamnox"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArUlEQVQ4jWN0yti8leH/fy8GcgAj4zYmsjUzMDAw/P/vxUS2ZihgIUYRDycrQ1aYNoOlnjgDLxcbw9yNNxiW77hNvAGZodoM7paycD4bC8LhRBlgrivOwMDAwNC96ALDzuNPGP7//0+aAYK8bAwMDAwMO449xpCjOBAZndI3/ccluXeGL1bxvqWXGLYefki+Cx6/+EKcC9Bd4pyxGUOO4jAYFgYwMm4jWzcj4zYA2mQtm7CTmFoAAAAASUVORK5CYII=" alt="link to my facebook profile" /></a>
+                        <a href="https://www.linkedin.com/in/mel-heisey-007a2135/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA3UlEQVQ4jWNkKN+cysDA2MPAwMjHQBL4/4mB4X8JI0P5lo+ka0YYwoSs2UCMm8FAjJsEAxj5mJA1H8iyYjiQZUWSIUyElRBwA0P51v/IrmBgYGC48Oor0QawIHPOF9lDTK3YxvC/w4uBgYGBwbDvIMOBLCsGfg5Who8/fjMEzD/NcODhB7gegl6AaWZgYGDg52BlWBBhiNsF2EDDzlsMF559ZDCQ4mfo99dmkBfkRJEn6IIJxx8yHHj4gWHC8YdY5SmOhYE3ACUdkOmC/5/I1/7/ExMDw/8S8gyBZGcAOos+wB5v8ncAAAAASUVORK5CYII=" alt="link to my linkedin profile" /></a>
+                        <a href="https://mheiseynox.youcanbook.me/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAClElEQVQ4jVWTvatdVRDFf2v22efde98XSkSRdAoRwcLCIhZBUBAkWGosLK3SCwrKU4NRUqgErERtJCSkEkFCwCZg4R8QQbATQRSfvvjevefsffayuMlDV7eGNcPMmhkB7N288kzuZ+9PtTxpQJYQAA0MKDBYNia6nG+XMry199y5b3ThxtUzzPK3kWJRhzIBAQibPJ8hiXG54i6MaanvElDLcng1WoqPI9KirMaack6KkO2x6/upLIfPh6PlpUjJtpsi1PU51bFWm05d+igsnqjjaERMZfyxtfbLbHPRz7a3UqNdMe0zSYoUam36tZTxNjharRbcH9gVSTL+O+oZwSdTqV8fHty5JfxIwG5rjdnWpgJ9cNT2n5aYJAmYOgDJGLQ9dI2e3nW6anwKa+GIE27ti6PDf27JPAD3ARISnlqEkGwB4aGRaF5Fn15LKZ110m9W2xb+qSz9PabXUAJs2yjkWHcA0MRq2Zq9MxyO79Vx+DKsh2mMDc962o6xV2U0aD2BUXAMsXroQVsSOWagDrvdu4b/w17fx3rnx9HdgwNk+7/SFBFGq7FOf0mk+cZmBumeKozNmunOxjzwuqgi7Ig01bZKEaf63fmz1W3/4gsv/Q40SRi749gEW+P+Ut1scJtGoOFoyH9afrzP/RGlnnz3u+snsJPdQBASCWMwO7l/FGsj5/5S5Hze8pByfkqtffXG6bPnU5dfnG9tvg3EOofojH5OXfdYLcW0+EFApOinqSHrwy53eZza9b2b11otdZzqYQBESmlak/Y69pS61EnqFerLMLrV6kixKEPJXe5emS3mlyV6cIqILlLIxJsCeOfGtZfzvL9QyngSg7j7zgYEa6PVBAnZqct/lNVwce/5c5/+C517bHq0/geMAAAAAElFTkSuQmCC" alt="link to my youcanbook.me" /></a> <a href="https://calendly.com/mheisey-nox"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA7UlEQVQ4jWNgQAMGBgYK6GL45BgZGBgYMnJKHP79+7+fgYGB4f//fwcYGZkcsBmALMfExOg4Y0rPAQYGBgaGtPTi9/+hoKd/2n9cAFkuLb34PQMDAwMTAwMDAwMzgwDMFisLU1w+QJWD6mFCV2RpYYLTAGxyGAaQClhwSTx+8oxh7/7DDCLCggxv3r5nSIgNJ82ALdt2MWSmJRB0AVYv3Lp9l8FAT4egZpwGqKkqM9y8fZcoA3B6QV1VmWHB4pXkh4GlhQneKIUBiqOROumAiYnRsaGlex8vDw8jMZq+f//OwMTE6Eip5QwMDAwMAMO3ZePSbZy4AAAAAElFTkSuQmCC" alt="link to my calendly" /></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSewm6ImJd7279lhLtGzG-G3IncVeMINsJIl0HJfYlV2OgemfA/viewform"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAClHpUWHRSYXcgcHJvZmlsZSB0eXBlIGV4aWYAAHjarZTZkRwhDIbficIhoAuJcGiOKmfg8P3DHDs7u+UH21A0jVothD6JNH/9XOnHbh4lqeFZS8loWrVyw0vkW1OMC4Nzpusmkpkfjc53ui0Szaf404eHnBgS+ZA/Zmu3ucyyyiiUirhw5sHwZwuKF8N7L8sNSmclwlMIaselMz4bx3nSfRd+9Sb0rsBv8sicX9paI9aaRyFp04LYlPvh6Jg/4ygiMionagXdMQzvfnpFj9xyJ80j5Y5wXlhUYpK8SGlQo0XzzJ063FKe7JiZO8uRhThX7pJxZN090WKXKkNCWDpiIRDz0xc6+9azXafIIw+CJhOMIWofPb0u/qV/MbRW3+GinUs7BTDgF+8gw41Naz+hBQi07qgsU7qHmJ4o80vCgTyo2Qlz4IAtXzcTl9GN6k4D2WwTJkPXfENOPu4GECLsbXCGBARyITEqlJ3ZiRDHAJ8Gz1mUL0qdyIwHvGQVKYATvPfGP05Hl41vYpQPQJjsHA4AaoClakgf10jIoWZiambF3MKqtSJFi5WCvN512Fxc3by4e3j1FhIaFiU8Imq0ylUS6tRqqV6j1toaNm2w3PB3g0ZrF19y6WVXufyKq16tI326duule49eexs8JA0dNsrwEaOONmkilaZOm2X6jFlnW0i1JUuXLRTgilVXe1Kje+V9ovZO7s/U6E6NDyhJePiTGsTuDxO0rxXbzECMlUDcNwEkNG9mOUiVN7kLVZNyZVSFMby0DWfQJgaCOolt0ZPdB7lvuSWNv+LG7+TSRvc/yKWN7o3cV27fUBv7qu2H2KnCdIKaBeUHhRmNq+ZzHcMpRzQikyKC2nDvBj4wVPYMUzX9Bm8nbouuVW68AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABLklEQVRIie3VUUrDQBCA4Zkf6RX0DOJRvEhfPIK36RF890GEBgJ9iJD0TZC2N5CqnfjgRpaYDSFMAkIHlh1Cko/dnd0VOcd/DmAFnFT1bk60BOqo3c8F1x1tOhzIgMcUPsm0AzlwDPnTT/cHP3mjFfAV8l1Aig585YkWgIX80ILy8LwGSk90DXyEfJ8oqufU9xcj0Y2IXJvZAtiLyJXn/1PotimUnpH+TrUXuhmIVp7okDVtKtoNLQaia0+0irZMH7rxRPPocOhDt55oFh2D7cNhspGWwGfIdz3o6DXVBGwi8iYiCxG5THz7YmY3Y+EutA79cZZ9GsMR/j7pidSEqmoENNUcjzxzRwO8bI8w4OZ6tUnr9lDV2/YLQG1mnUXoFsAr8KCqS1WdFjvHXPENMrOyI1v9TucAAAAASUVORK5CYII=" alt="link to google form" style="width: 16px; height: 16px;" /></a>
+                        <span class="newline"><a href="link">QR codes</a></span>
+                        <span class="newline" style="font-size: 0.75em"><a href="my_measurements.txt">Clothing Size</a></span>
+                    </div>
+                </section>
             </div>
-         </nav>
-        <img src="http://3.bp.blogspot.com/-OCgarCQoHQI/UlxfpV8lLJI/AAAAAAAADFs/KD5MnlRAqsE/s1600/IMG_9440edit.jpg" 
-            alt="[insert awesome picture]">
-        <div id="head-overlay">
-            <h1>Ham Nox</h1>
+            <div class="flex-box">
+                <section>
+                    <h2>Aesthetic</h2>
+                    <ul>
+                        <li><a href="poetry">Poetry</a></li>
+                        <li><a href="Ekkreth.pdf">Ekkreth</a></li>
+                        </li>
+                        <li><em>External Links</em>
+                            <ul>
+                                <li><a href="https://www.rainymood.com/">rainy sounds</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Tools</h2>
+                    <ul>
+                        <li><a href="util/emoticons.html">emoticons</a></li>
+                        <li><a href="util/rando.html">random lists</a></li>
+                        <li><em>External Links</em>
+                            <ul>
+                                <li><a href="base64.html">base64 converter</a></li>
+                                <li><a href="password.html">password maker</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </div>
-    </header>
-    <div class="main-container">
-        <h1 class="page-title">
-            Welcome to Ham's Site of Wonderful Wonders
-        </h1>
-        <main>
-            <section class="content">
-            </section>
-        </main>
-        <footer>
-            <p>Copyright 2014 Melanie Heisey</p>
-        </footer>
     </div>
-
-
-
 </body>
 
 </html>
